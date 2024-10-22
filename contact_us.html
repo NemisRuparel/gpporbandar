@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Polytechnic Porbandar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        footer {
+            background-color: #444;
+            padding: 20px 0;
+            color: white;
+        }
+
+        footer a {
+            color: #ccc;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        i {
+            cursor: pointer;
+            font-size: 24px;
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+        }
+
+        .bi-linkedin {
+            color: #0A66C2;
+        }
+
+        .bi-envelope-fill {
+            color: #EA4335;
+        }
+
+        .bi-github {
+            color: #333;
+        }
+        .bi-microsoft-teams {
+            color: #6264A7;
+        }
+        #forms {
+            color: white;
+            width: 50%;
+        }
+
+        #forms input {
+            border-radius: 10px;
+        }
+
+        #forms label {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.jpg" class="rounded-circle" height="70px" width="70px">
+                <span class="navbar-brand" id="navtext" style="font-family:cursive; margin-left: 10px;">Government Polytechnic Porbandar</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="home.html" class="nav-item nav-link" id="navlink">Home</a>
+                    <a href="departments.html" class="nav-item nav-link" id="navlink">Departments</a>
+                    <a href="about_us.html" class="nav-item nav-link" id="navlink">About Us</a>
+                    <a href="contact_us.html" class="nav-item nav-link" id="navlink">Contact Us</a>
+                    <a href="col_fac.html" class="nav-item nav-link" id="navlink">College Facilities</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="mt-4"></div>
+<ol class="breadcrumb bg-light">
+    <li class="breadcrumb-item"style="margin-left:20px"><a href="home.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="departments.html">Departments</a></li>
+    <li class="breadcrumb-item"><a href="departments.html">About Us</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+    </ol>
+<div class="mt-4"></div>
+    <!-- <div class="mt-5"></div> -->
+    <h1 class="text-center" style="font-family:cursive;">How to Contact Us?</h1>
+    <div class="container my-5">
+        <!-- Left Image, Right Text -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <img src="images/contact_us.jpg" alt="Image 1" class="img-fluid rounded-3"
+                    style="height: 450px;width: 600px;">
+            </div>
+            <div class="col-md-6">
+                <div class="modal-body">
+                    <form action="/action_page.php">
+                        <!--<div class="mb-3 mt-3"> -->
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mt-3"></div>
+
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Full Name" name="name">
+                </div>
+                <div class="mt-3"></div>
+
+                <div class="mb-3">
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile Number" name="mobile">
+                </div>
+                <div class="mt-3"></div>
+
+                <div class="mb-3">
+                    <label for="review" class="form-label">Review</label>
+                    <textarea class="form-control" id="review" rows="4" placeholder="Enter your review"
+                        name="review"></textarea>
+                </div>
+        <div class="mt-3"></div>
+                <button type="button" id="btn-reg" class="btn btn-primary">Submit</button>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" style="margin-top: 100px;">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- About Us Section -->
+                <div class="col-md-4 text-light">
+                    <h5 class="text-center">About GPP</h5>
+                    <p class="text-center">Government Polytechnic, Porbandar, is a prestigious technical institution
+                        offering quality education and hands-on experience to future engineers and technicians. We aim
+                        to build a strong foundation for our students.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 text-light">
+                    <h5 class="text-center">Quick Links</h5>
+                    <ul class="list-unstyled text-center">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                        <li><a href="col_fac.html">College Facilities</a></li>
+                    </ul>
+                </div>
+
+                <!-- Map Section -->
+                <div class="col-md-4 text-light text-center">
+                    <h5 class="text-center">How to Reach us?</h5>
+
+                    Opp. Civil Aerodrome , NH-8 B, Porbandar 360575
+                    <br>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-envelope-fill"></i>
+                    <i class="bi bi-github"></i>
+                    <i class="bi bi-microsoft-teams"></i>
+                </div>
+            </div>
+            <div class="row mt-2"></div>
+                <div class="col text-center text-light">
+                    <p>&copy; 2024 Government Polytechnic Porbandar. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+       document.getElementById('btn-reg').addEventListener('click', function () {
+    const recipient = document.getElementById('email').value;
+    const name = document.getElementById('name').value;
+    const mob = document.getElementById('mobile').value;
+    const review = document.getElementById('review').value; // Retrieve review
+    const subject = 'Sending email';
+    const body = 'nemisruparel07@gmail.com';
+    let em = "Email: " + recipient + "\nName: " + name + "\nMobile: " + mob + "\nReview: " + review + "\n NOTE: Please share this mail."; // Include review
+
+    const mailtoLink = `mailto:${encodeURIComponent(body)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(em)}`;
+
+    window.location.href = mailtoLink;
+});
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
